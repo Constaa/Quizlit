@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Quizlit</string>
+    <string name="spielen">SPIELEN</string>
+    <string name="frage_senden">FRAGE SENDEN</string>
+    <string name="problem_melden">Problem melden</string>
+    <string name="deine_frage">Deine Frage</string>
+    <string name="einsenden">Einsenden</string>
+    <string name="antwortenfuerfrage">4 Antworten (richtige oben)</string>
 </resources>

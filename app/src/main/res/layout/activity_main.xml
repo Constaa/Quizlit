@@ -5,7 +5,7 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/bTBestenliste"
         style="@style/ButtonStyle"
         android:layout_width="500dp"
         android:layout_height="100dp"
@@ -22,7 +22,7 @@
         style="@style/ButtonStyle"
         android:layout_width="500dp"
         android:layout_height="100dp"
-        android:layout_above="@+id/button3"
+        android:layout_above="@+id/bTBestenliste"
         android:layout_alignParentStart="true"
         android:text="SPIELEN"
         android:textSize="24sp"
@@ -31,18 +31,17 @@
         />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/bTFragen"
         style="@style/ButtonStyle"
         android:layout_width="500dp"
         android:layout_height="100dp"
-        android:layout_alignParentBottom="true"
+        android:layout_above="@+id/tVProblem"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="90dp"
+        android:layout_marginBottom="70dp"
+        android:clickable="true"
         android:text="frage einsenden"
         android:textSize="24sp"
-        android:textStyle="bold"
-        android:clickable="true"
-        />
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -63,7 +62,7 @@
         app:srcCompat="@drawable/instagram"
         android:clickable="true"
         android:layout_marginTop="66dp"
-        android:layout_alignTop="@+id/button"
+        android:layout_alignTop="@+id/bTFragen"
         android:layout_centerHorizontal="true" />
 
     <ImageView
@@ -85,7 +84,7 @@
         android:layout_alignParentStart="true" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tVProblem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Problem melden"
