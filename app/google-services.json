@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "358464879019",
+    "firebase_url": "https://quizlitv2.firebaseio.com",
+    "project_id": "quizlitv2",
+    "storage_bucket": "quizlitv2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358464879019:android:f0b0872037ba2b85",
+        "android_client_info": {
+          "package_name": "jonas.quizlit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358464879019-rg2s7em9ukm3d6uhndaek7lfh9gegnlt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "jonas.quizlit",
+            "certificate_hash": "3e4a8fbb21fc76eed0af005eeee0158329a1d872"
+          }
+        },
+        {
+          "client_id": "358464879019-u6sfg6sck9igl2tq62d06ckgvlp29rm3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdM8xFgTL85t5FgRgFJe6s3Tc3PaM2RZo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358464879019-u6sfg6sck9igl2tq62d06ckgvlp29rm3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
