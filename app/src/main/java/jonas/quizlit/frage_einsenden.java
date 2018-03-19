@@ -37,7 +37,7 @@ public class frage_einsenden extends AppCompatActivity {
 
 
                 emailintent.setType("plain/text");
-                emailintent.putExtra(Intent.EXTRA_EMAIL , new String[]{"jonas.dietsche@gmx.net"});
+                emailintent.putExtra(Intent.EXTRA_EMAIL , new String[]{"teamquizlit@gmail.com"});
                 emailintent.putExtra(Intent.EXTRA_SUBJECT, "Einsendung einer Frage");
                 emailintent.putExtra(Intent.EXTRA_TEXT, "Frage:"+email+'\n'+"Antworten:"+'\n'+details);
 

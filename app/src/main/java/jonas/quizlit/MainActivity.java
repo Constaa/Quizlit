@@ -39,6 +39,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        tVProblem.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, problem_senden.class);
+                startActivity(intent);
+            }
+        });
 
 
     }
