@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-
+    DatabaseHelper myDb;
     Button bTFragen;
     Button btSpielen;
     TextView tVProblem;
@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        myDb = new DatabaseHelper(this);
         tVProblem = (TextView) findViewById(R.id.tVProblem);
         btSpielen= (Button) findViewById(R.id.btSpielen);
         bTFragen = (Button) findViewById(R.id.bTFragen);
